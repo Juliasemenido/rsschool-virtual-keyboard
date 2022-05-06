@@ -8,3 +8,5 @@ let createAndAppend = function({className, parentElement, value}, tag = 'div') {
 
     return element;
 };
+
+let keyboard = new keyboard(document,body);
